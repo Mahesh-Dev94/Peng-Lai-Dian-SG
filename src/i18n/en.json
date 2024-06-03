@@ -1,0 +1,245 @@
+{
+  "language": "English",
+  "screens": {
+    "languageOption": {
+      "English": "English",
+      "Chinese": "Chinese"
+    },
+    "registerOption": {
+      "Welcome !": "Welcome !",
+      "To Peng Lai Dian , Singapore": "To Peng Lai Dian, Singapore",
+      "Sign In": "Sign In",
+      "Sign Up": "Sign Up",
+      "Back":"Back"
+    },
+    "SignIn": {
+      "Sign In": "Sign In",
+      "Email_Id": "Email ID",
+      "Email Id": "Email/Login Id",
+      "Enter":"Enter",
+      "Password": "Password",
+      "Forgot password ?": "Forgot password ?",
+      "Don’t have an account ?": "Don’t have an account ?",
+      "Sign up": " Sign up",
+      "Forgot your password?": "Forgot your password?",
+      "Please enter the email you would like your password reset information sent to": "Account Verification Yay! An account has been found. Please verify email for reset password. OTP will be sent over email.",
+	  "Request password":"Request password",
+	  "Back to Sign in":"Back to Sign in",
+    "Back to login":"Back to login",
+    "Email Id is required":"Email ID is required",
+    "Invalid Mail address":"Invalid mail address",
+    "Password is required":"Password is required",
+     "Invalid Email Id":"Invalid email ID",
+    "Please Enter Correct Otp!":"Please Enter Correct Otp!",
+     "Change Password":"Change Password",
+     "New Password":"New Password",
+     "Confirm Password":"Confirm Password",
+     "New Password is required":"New password is required",
+     "Confirm Password is required":"Confirm password is required",
+     "Passwords do not match":"Passwords do not match"
+    },
+    "SignUp": {
+		"First Name":"First Name",
+		"Last Name":"Last Name",
+    "Enter":"Enter",
+    "Email_Id": "Email ID",
+		"Email Id":"Email/Login Id",
+    "Password":"Password",
+		"Phone No":"Mobile Number",
+		"(+91)":"(+65)",
+    "Confirm password":"Confirm password",
+    "Confirm password is required":"Confirm password is required",
+		"Date of birth":"Date of birth",
+		"Mailing Address":"Street, House No and Postal Code",
+		"Terms & Conditions":"Terms & Conditions",
+		"PDPA":"PDPA",
+		"Receive event updates from Peng Lai Dian":"Receive event updates from Peng Lai Dian",
+		"Sign Up":"Sign Up",
+		"Already have an account ?":"Already have an account? ",
+		"Sign In":"Sign In",
+		"E-mail verification":"E-mail verification",
+		"Enter your code here":"Enter your code here",
+		"Resend OTP":"Resend OTP",
+		"Click here ?":"Click here?",
+		"Submit":"Submit",
+    "First Name is required":"First name is required",
+    "Last Name is required":"Last name is required",
+    "Email is required":"Email ID is required",
+    "Invalid email address":"Invalid email address",
+    "Password is required":"Password is required",
+    "Mobile number is required":"Mobile number is required",
+    "DOB is required":"Date of birth is required",
+    "Mail Address is required":"Street, House No and Postal Code is required",
+    "Invalid Mail address":"Invalid mail address",
+    "You must agree to the Terms & Conditions":"You must agree to the Terms & Conditions",
+    "You must agree to the PDPA":"You must agree to the PDPA",
+    "Invalid OTP":"Invalid OTP",
+    "Passwords do not match":"Passwords do not match"
+
+	},
+  "ForgotPassword": {
+    "Email Id": "Email/Login Id",
+    "Email_Id": "Email ID",
+    "Enter":"Enter"
+  },
+    "Home": {
+		"Search":"Search",
+		"see more":"Read more",
+    "see less":"Read less",
+    "Loading...":"Loading...",
+    "No post available!":"No post available!"
+	},
+    "SideMenu": {
+		"Home":"Home",
+		"Profile":"Profile",
+		"About Us":"About Us",
+		"Events":"Events",
+		"Donations":"Donations",
+		"Album":"Album",
+		"Settings":"Settings",
+		"Log Out":"Log Out",
+    "Terms & Conditions Applied":"Terms & Conditions Applied",
+    "Alert":"Alert",
+    "Do you want to log out?":"Do you want to log out?",
+    "Yes":"Yes",
+    "No":"No"
+	},
+    "Notification": {
+      "Notifications":"Notifications",
+      "No notification available!":"No notification available!"
+    },
+    "Profile": {
+      "Profile":"Profile",
+      "First Name":"First Name",
+      "Last Name":"Last Name",
+      "Email ID":"Email ID",
+      "Date of birth":"Date of birth",
+      "First Name is required":"First name is required",
+      "Last Name is required":"Last name is required",
+      "DOB is required":"Date of birth is required",
+      "Country":"Country",
+      "Country is required":"Country is required",
+      "Address":"Address",
+      "Address is required":"Address is required",
+      "View Activities":"View Activities",
+      "Take Photo":"Take Photo",
+      "Choose from Library":"Choose from Library",
+      "Cancel":"Cancel",
+      "Mailing Address":"Mailing Address",
+      "Update":"Update"
+    },
+    "Activity": {
+      "No Activity available!":"No Activity available!",
+      "Activities":"Activities"
+    },
+    "ActivityDetails": {
+      "Activities":"Activities",
+      "Booking Details":"Booking Details",
+      "Booking ID":"Booking ID",
+      "We have sent the pass to":"We have sent the pass to",
+      "Help & Support":"Help & Support",
+      "Attendee Details":"Attendee Details",
+      "Name":"Name",
+      "Status":"Status",
+      "Book Another Event":"Book Another Event",
+      "Download Pass":"Download Pass"
+    },
+    "Events": {
+      "Events":"Events",
+      "Upcoming":"Upcoming",
+      "Past":"Past",
+      "No upcoming events!":"No upcoming events!",
+      "No Past events!":"No Past events!"
+
+    },
+    "EventsDetails": {
+      "Description":"Description",
+      "Participate":"Participate",
+      "Read more":"Read more",
+      "See less":"Read less",
+      "people registered":"people registered"
+    },
+    "EventPayment": {
+      "Category is required":"Category is required",
+      "Select Category":"Select Category",
+      "Number Of Participants is required":"Number of participants is required",
+      "No. of participants":"No. of participants",
+      "Name is required":"Name is required",
+      "Address":"Address",
+      "Address is required":"Address is required",
+      "Postal Code":"Postal Code",
+      "Postal Code is required":"Postal code is required",
+      "Country is required":"Country is required",
+      "Country":"Country",
+      "Contact No.":"Contact No.",
+      "Contact No is required":"Contact no is required",
+      "Number of Participants cannot exceed":"Number of Participants cannot exceed",
+      "Submit":"Submit",
+      "Please enter only numbers":"Please enter only numbers"
+    },
+    "EventPaymentQr": {
+      "Payment":"Payment",
+      "Thank you!":"Thank you!",
+      "We have recieved your reciept, our team will shortly share the confirmation with you":"We have recieved your reciept, our team will shortly share the confirmation with you",
+      "Back to home":"Back to home"
+    },
+    "Donations": {
+      "Donations":"Donations",
+      "Donation Items":"Donation Items",
+      "No Donations available!":"No Donations available!"
+    },
+    "DonationDetails": {
+      "Description":"Description",
+      "Donate":"Donate",
+      "Read more":"Read more",
+      "Contact Us":"Contact Us",
+      "Choose how you want to contact us?":"Choose how you want to contact us?",
+      "Whatsapp":"Whatsapp",
+      "Call":"Call",
+      "E-mail":"E-mail",
+      "See less":"Read less"
+    },
+    "DonationPayment": {},
+    "DonationPaymentQr": {},
+    "AboutUs": {
+      "About Us":"About Us",
+      "History":"History",
+      "videos":"videos"
+    },
+    "Album": {
+      "Album":"Album",
+      "No Albums!":"No Albums!"
+
+    },
+    "AlbumDetails": {},
+    "Bookmark": {
+      "Bookmarks":"Bookmarks",
+      "No favorites available!":"No favorites available!"
+    },
+    "Search": {
+      "Search":"Search",
+      "Events":"Events",
+      "No events available!":"Data not available"
+    },
+    "Settings": {
+      "Settings":"Settings",
+      "Help & Support":"Help & Support",
+      "Customer support , Your Queries , Frequently asked Questions":"Customer support , Your Queries , Frequently asked Questions",
+      "Manage Notifications":"Manage Notifications",
+      "Manage how you want to receive important updates":"Manage how you want to receive important updates",
+      "Change Language":"Change Language",
+      "Change the language of the app":"Change the language of the app",
+      "Delete Account":"Delete Account",
+      "Delete the current account":"Delete the current account",
+      "Are you sure you want to delete this account?":"Are you sure you want to delete this account?",
+      "By deleting your account you will lose your data.":"By deleting your account you will lose your data.",
+     "Deactivate Account":"Deactivate Account",
+     "Cancel":"Cancel",
+     "Turn on Notifications":"Turn on Notifications",
+     "turn on notifications to get all updates":"turn on notifications to get all updates",
+     "Terms & Conditions":"Terms & Conditions",
+     "Choose Language":"Choose Language",
+     "Continue":"Continue"
+    }
+  }
+}

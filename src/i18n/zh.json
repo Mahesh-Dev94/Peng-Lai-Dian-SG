@@ -1,0 +1,239 @@
+{
+  "language": "Chinese",
+  "screens": {
+    "languageOption": {
+      "English": "English",
+      "Chinese": "Chinese"
+    },
+    "registerOption": {
+      "Welcome !": "欢迎来到",
+      "To Peng Lai Dian , Singapore": "新加坡 蓬莱殿",
+      "Sign In": "登入",
+      "Sign Up": "注册"
+    },
+    "SignIn": {
+      "Sign In": "登入",
+      "Enter":"進入",
+      "Email Id": "电子邮件/登录 ID",
+      "Password": "密码",
+      "Forgot password ?": "忘记密码",
+      "Don’t have an account ?": "若无帐户，点击",
+      "Sign up": "注册",
+      "Forgot your password?": "忘记密码？",
+      "Please enter the email you would like your password reset information sent to": "请输入您想要重置密码信息发送到的电子邮件",
+      "Request password": "请求密码",
+      "Back to Sign in": "返回登录",
+      "Back to login": "返回登录",
+      "Enter email": "输入电子邮件",
+      "Email Id is required": "电子邮件是必需的",
+      "Invalid Mail address": "无效的邮箱地址",
+      "Password is required": "密码是必需的",
+      "Invalid Email Id": "无效的电子邮件地址",
+      "Please Enter Correct Otp!": "请输入正确的验证码！",
+      "Change Password": "更改密码",
+      "New Password": "新密码",
+      "Confirm Password": "确认密码",
+      "New Password is required": "需要新密码",
+      "Confirm Password is required": "需要确认密码",
+      "Passwords do not match": "密码不匹配"
+    },
+    "SignUp": {
+      "Enter":"進入",
+      "First Name": "名字",
+      "Last Name": "姓",
+      "Email Id": "电子邮件/登录 ID",
+      "Password": "密码",
+      "Phone No": "手机号码",
+      "(+91)": "(+65)",
+      "Date of birth": "出生日期",
+      "Mailing Address": "街道、房屋号码和邮政编码",
+      "Terms & Conditions": "条款和条件",
+      "Confirm password":"确认密码",
+      "Confirm password is required":"需要确认密码",
+      "PDPA": "个人资料保护法案",
+      "Receive event updates from Peng Lai Dian": "接收蓬莱殿活动更新",
+      "Sign Up": "注册",
+      "Already have an account ?": "若无帐户，点击",
+      "Sign In": "登入",
+      "E-mail verification": "电子邮件验证",
+      "Enter your code here": "在此输入您的代码",
+      "Resend OTP": "重新发送 OTP",
+      "Click here ?": "点击这里？",
+      "Submit": "提交",
+      "First Name is required": "名字是必填项",
+      "Last Name is required": "姓氏是必填项",
+      "Email is required": "电子邮件是必填项",
+      "Invalid email address": "无效的电子邮件地址",
+      "Password is required": "密码是必填项",
+      "Mobile number is required": "手机号码是必填项",
+      "DOB is required": "出生日期是必填项",
+      "Mail Address is required": "街道、房屋号码和邮政编码为必填项",
+      "Invalid Mail address": "无效的邮寄地址",
+      "You must agree to the Terms & Conditions": "您必须同意条款和条件",
+      "You must agree to the PDPA": "您必须同意 个人资料保护法案",
+      "Invalid OTP": "无效的 OTP",
+      "Passwords do not match": "密码不匹配"
+    },
+    "ForgotPassword": {
+      "Email Id": "电邮",
+      "Enter":"進入"
+    },
+    "Home": {
+      "Search": "搜索",
+      "see more": "查看更多",
+      "see less": "查看更少",
+      "Loading...": "加载中...",
+      "No post available!": "暂无帖子！"
+    },
+    "SideMenu": {
+      "Home": "主页",
+      "Profile": "个人页面",
+      "About Us": "关于我们",
+      "Events": "活动",
+      "Donations": "捐款",
+      "Album": "相册",
+      "Settings": "设置",
+      "Log Out": "登出",
+      "Terms & Conditions Applied": "适用条款和条件",
+      "Alert": "警告",
+      "Do you want to log out?": "你想登出吗？",
+      "Yes": "是",
+      "No": "否"
+    },
+    "Notification": {
+      "Notifications": "通知",
+      "No notification available!": "暂无通知！"
+    },
+    "Profile": {
+      "Profile": "个人页面",
+      "First Name": "名字",
+      "Last Name": "姓",
+      "Email ID": "电邮",
+      "Date of birth": "出生日期",
+      "First Name is required": "名字是必填项",
+      "Last Name is required": "姓氏是必填项",
+      "DOB is required": "出生日期是必需的",
+      "Country": "居住国家",
+      "Country is required": "居住国家是必需的",
+      "Address": "住家地址",
+      "Address is required": "住家地址是必需的",
+      "View Activities": "查看活动",
+      "Take Photo": "拍照",
+      "Choose from Library": "从相册选择",
+      "Cancel": "取消",
+      "Mailing Address": "邮寄地址",
+      "Update": "更新"
+    },
+    "Activity": {
+      "Activities": "活动",
+      "No Activity available!": "没有可用的活动！"
+    },
+    "ActivityDetails": {
+      "Activities": "活动",
+      "Booking Details": "预订详情",
+      "Booking ID": "预订编号",
+      "We have sent the pass to": "我们已将通行证发送至",
+      "Help & Support": "帮助与支持",
+      "Attendee Details": "参与者详情",
+      "Name": "姓名",
+      "Status": "状态",
+      "Book Another Event": "预订另一个活动",
+      "Download Pass": "下载通行证"
+    },
+    "Events": {
+      "Events": "活动",
+      "Upcoming": "即将来临",
+      "Past": "过去",
+      "No upcoming events!": "没有即将到来的活动！",
+      "No Past events!": "没有过去的活动！"
+    },
+    "EventsDetails": {
+      "Description": "描述",
+      "Participate": "参与",
+      "Read more": "阅读更多",
+      "See less": "查看更少",
+      "people registered": "人已注册"
+    },
+    "EventPayment": {
+      "Category is required": "类别是必需的",
+      "Select Category": "选择类别",
+      "Number Of Participants is required": "参与人数是必需的",
+      "No. of participants": "参与人数",
+      "Name is required": "名字是必需的",
+      "Address": "住家地址",
+      "Address is required": "地址是必需的",
+      "Postal Code": "邮政编码",
+      "Postal Code is required": "邮政编码是必需的",
+      "Country is required": "国家是必需的",
+      "Country": "居住国家",
+      "Contact No.": "联系电话",
+      "Contact No is required": "联系电话是必需的",
+      "Number of Participants cannot exceed": "参与人数不能超过",
+      "Submit": "提交",
+      "Please enter only numbers": "请输入数字"
+    },
+    "EventPaymentQr": {
+      "Payment": "付款",
+      "Thank you!": "谢谢！",
+      "We have recieved your reciept, our team will shortly share the confirmation with you": "我们已收到您的收据，我们的团队将很快与您分享确认信息",
+      "Back to home": "返回主页"
+    },
+    "Donations": {
+      "Donations": "捐款",
+      "Donation Items": "捐赠物品",
+	  "No Donations available!": "暂无捐赠可用！"
+    },
+    "DonationDetails": {
+      "Description": "描述",
+      "Donate": "捐赠",
+      "Read more": "阅读更多",
+      "Contact Us": "联系我们",
+      "Choose how you want to contact us?": "选择您希望如何联系我们？",
+      "Whatsapp": "Whatsapp",
+      "Call": "电话",
+      "E-mail": "电子邮件",
+      "See less": "查看更少"
+    },
+    "DonationPayment": {},
+    "DonationPaymentQr": {},
+    "AboutUs": {
+      "About Us": "关于我们",
+      "History": "历史",
+      "videos": "视频"
+    },
+    "Album": {
+      "Album": "相册",
+      "No Albums!": "没有相册！"
+    },
+    "AlbumDetails": {},
+    "Bookmark": {
+      "Bookmarks": "书签",
+      "No favorites available!": "没有可用的收藏！"
+    },
+    "Search": {
+      "Search": "搜索",
+      "Events": "活动",
+      "No events available!": "没有可用的活动！"
+    },
+    "Settings": {
+      "Settings": "设置",
+      "Help & Support": "帮助与支持",
+      "Customer support , Your Queries , Frequently asked Questions": "客户支持，您的问题，常见问题",
+      "Manage Notifications": "管理通知",
+      "Manage how you want to receive important updates": "管理您希望接收重要更新的方式",
+      "Change Language": "更改语言",
+      "Change the language of the app": "更改应用程序的语言",
+      "Delete Account": "删除帐户",
+      "Delete the current account": "删除当前帐户",
+      "Are you sure you want to delete this account?": "您确定要删除此帐户吗？",
+      "By deleting your account you will lose your data.": "删除帐户将导致数据丢失。",
+      "Deactivate Account": "停用帐户",
+      "Cancel": "取消",
+      "Turn on Notifications": "打开通知",
+      "turn on notifications to get all updates": "打开通知以获取所有更新",
+      "Terms & Conditions": "条款和条件",
+      "Choose Language": "选择语言",
+      "Continue": "继续"
+    }
+  }
+}
