@@ -355,8 +355,8 @@ const styles = StyleSheet.create({
     marginTop: 8,
     paddingTop: 10,
     backgroundColor: Color.colorWhitesmoke_100,
-    borderTopLeftRadius: 15,
-    borderTopRightRadius: 15,
+    // borderTopLeftRadius: 15,
+    // borderTopRightRadius: 15,
     marginBottom: 15,
   },
   titleContainer: {

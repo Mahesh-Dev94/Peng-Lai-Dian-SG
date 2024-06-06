@@ -14,7 +14,7 @@ const CustomInput = ({  control, name, placeholder, rules, errors,style,value,la
     // defaultValue={value} 
     render={({ field }) => (
       <View style={{flexDirection:'column'}}>
-        <Text style={style.label}> {''}{label}</Text>
+        <Text style={styles.label}> {''}{label}</Text>
     <TextInput
       editable={placeholder==='Date of birth'? false:true}
       selectTextOnFocus={placeholder==='Date of birth'? false:true}
@@ -36,8 +36,8 @@ const CustomInput = ({  control, name, placeholder, rules, errors,style,value,la
 const styles = StyleSheet.create({
   label:{
     fontSize: 12, // Font size
-    color: '#CCCCCC', // Text color
-    paddingLeft:15
+    color:Color.colorGray_100, // Text color
+    // paddingLeft:15
   },
   input: {
     // backgroundColor: Color.colorGainsboro_200, // Gray background color
@@ -45,8 +45,8 @@ const styles = StyleSheet.create({
     borderBottomWidth:1,
     // borderWidth: 1, // Border width
     borderColor: '#CCCCCC', // Border color
-    fontSize: 16, // Font size
-    color: Color.colorDimgray_200, // Text color
+    fontSize: 15, // Font size
+    color: Color.colorGray_300, // Text color
   },
 });
 

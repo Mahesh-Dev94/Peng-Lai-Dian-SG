@@ -1,0 +1,15 @@
+R_DEF: Internal format may change without notice
+local
+color background_color
+color primary_dark
+drawable launch_screen
+drawable rn_edit_text_material
+integer react_native_dev_server_port
+integer react_native_inspector_proxy_port
+layout launch_screen
+mipmap ic_launcher
+mipmap ic_launcher_round
+string app_name
+style AppTheme
+style SplashStatusBarTheme
+style SplashTheme

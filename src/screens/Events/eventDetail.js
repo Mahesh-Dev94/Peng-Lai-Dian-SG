@@ -267,8 +267,8 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     marginTop: 8,
     backgroundColor: Color.colorWhitesmoke_100,
-    borderTopLeftRadius: 15,
-    borderTopRightRadius: 15,
+    // borderTopLeftRadius: 15,
+    // borderTopRightRadius: 15,
     marginBottom: 15,
   },
   titleContainer: {

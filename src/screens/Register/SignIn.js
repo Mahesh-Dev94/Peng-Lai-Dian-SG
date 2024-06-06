@@ -394,10 +394,13 @@ const SignIn = () => {
               </Text>
             </View>
 
+           
+              <View style={{flexDirection:'column'}}>
+        <Text style={styles.label}>{' '}{t('screens.SignIn.Email_Id')}</Text>
             <TextInput
               value={ForgetEmail}
               onChangeText={txt => handleForgetEmailChange(txt)}
-              placeholder={t('screens.SignIn.Email Id')}
+              placeholder={t('screens.SignIn.Enter')+' '+ t('screens.SignIn.Email Id')}
               style={[styles.input, styles.f_p_E_input]}
               textContentType="emailAddress"
               placeholderTextColor="#888"
@@ -411,6 +414,7 @@ const SignIn = () => {
                 {emailError.message}
               </Text>
             ) : null}
+            </View>
             <CustomButton
               style={styles.L2Button}
               onPress={() => handleForgotPassword()}>
@@ -557,20 +561,25 @@ const SignIn = () => {
                 {t('screens.SignIn.Change Password')}
               </Text>
             </View>
-
+          
+            <View style={{flexDirection:'column'}}>
+        <Text style={styles.label}>{' '}{t('screens.SignIn.New Password')}</Text>
             <TextInput
               value={newPassword}
               onChangeText={_onHandleNewPassWord}
-              placeholder={t('screens.SignIn.New Password')}
+              placeholder={t('screens.SignIn.Enter')+' '+ t('screens.SignIn.New Password')}
               style={[styles.input, styles.f_p_E_input]}
               textContentType="password"
               secureTextEntry={true}
               placeholderTextColor="#888"
             />
+            </View>
+            <View style={{flexDirection:'column'}}>
+        <Text style={styles.label}>{' '}{t('screens.SignIn.Confirm Password')}</Text>
             <TextInput
               value={confirmPassword}
               onChangeText={_onHandleConfirmPassWord}
-              placeholder={t('screens.SignIn.Confirm Password')}
+              placeholder={t('screens.SignIn.Enter')+' '+t('screens.SignIn.Confirm Password')}
               style={[styles.input, styles.f_p_E_input]}
               textContentType="password"
               placeholderTextColor="#888"
@@ -578,6 +587,8 @@ const SignIn = () => {
             {ChangeError.message ? (
               <Text style={[styles.error,ChangeError.type==='success'?{color:'green'}:null]}>{ChangeError.message}</Text>
             ) : null}
+
+            </View>
             <CustomButton style={styles.L2Button} onPress={_onChangePassword}>
               <Text style={styles.L2ButtonLbl}>
                 {t('screens.SignIn.Change Password')}
@@ -618,11 +629,11 @@ const styles = StyleSheet.create({
     width: width,
     flex: 3,
     backgroundColor: Color.colorWhitesmoke_100,
-    borderTopLeftRadius: 25,
-    borderTopRightRadius: 25,
+    // borderTopLeftRadius: 25,
+    // borderTopRightRadius: 25,
     justifyContent: 'flex-start',
     alignItems: 'center',
-    paddingTop: 60,
+    paddingTop: 30  //60,
   },
   buttonSubContainer: {
     justifyContent: 'center',
@@ -723,17 +734,27 @@ const styles = StyleSheet.create({
     alignItems: 'center',
   },
   f_p_E_input: {
-    backgroundColor: Color.colorGainsboro_200, // Gray background color
-    borderRadius: 10, // Border radius
-    borderWidth: 1, // Border width
+    // backgroundColor: Color.colorGainsboro_200, // Gray background color
+    // borderRadius: 10, // Border radius
+    // borderWidth: 1, // Border width
+    // borderColor: '#CCCCCC', // Border color
+    // fontSize: 16, // Font size
+    // color: Color.colorDimgray_200, // Text color
+    
+    borderBottomWidth:1,
     borderColor: '#CCCCCC', // Border color
     fontSize: 16, // Font size
-    color: Color.colorDimgray_200, // Text color
+    color: Color.colorGray_300, // Text color
   },
   error: {
     marginTop: -10,
     color: 'red',
     marginBottom: 10,
+  },
+  label:{
+    fontSize: 12, // Font size
+    color:Color.colorGray_100, // Text color
+    // paddingLeft:15
   },
 });
 

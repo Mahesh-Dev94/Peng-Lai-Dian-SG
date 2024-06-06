@@ -108,8 +108,11 @@ const styles = StyleSheet.create({
     // paddingHorizontal: 10,
   },
   input: {
-    backgroundColor: Color.colorGainsboro_200,
-    borderRadius: 10,
+    // backgroundColor: Color.colorGainsboro_200,
+    borderBottomWidth:1,
+    // borderWidth: 1, // Border width
+    borderColor: Color.colorGainsboro_200, // Border color
+    // borderRadius: 10,
     padding: 10,
     width: 36,
     height: 43,

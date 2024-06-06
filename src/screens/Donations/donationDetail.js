@@ -253,10 +253,10 @@ const styles = StyleSheet.create({
     width: width,
     paddingHorizontal: 20,
     justifyContent: 'center',
-    marginTop: -15,
+    marginTop: 8,
     backgroundColor: Color.colorWhitesmoke_100,
-    borderTopLeftRadius: 15,
-    borderTopRightRadius: 15,
+    // borderTopLeftRadius: 15,
+    // borderTopRightRadius: 15,
     marginBottom: 15,
   },
   titleContainer: {

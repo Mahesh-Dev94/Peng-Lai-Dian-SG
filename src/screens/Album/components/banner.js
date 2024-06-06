@@ -70,7 +70,7 @@ const styles = StyleSheet.create({
 	homescreenOption1Inner: {
 		width: width,
 		height: 234,
-		borderRadius: Border.br_8xs,
+		// borderRadius: Border.br_8xs,
 	},
 });
 

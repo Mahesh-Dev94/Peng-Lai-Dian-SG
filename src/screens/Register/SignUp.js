@@ -18,7 +18,7 @@ import CustomModal from '../../components/customModal';
 import { useNavigation } from '@react-navigation/native';
 import CheckBox from '@react-native-community/checkbox';
 import DatePicker from 'react-native-date-picker';
-import CustomPhone from '../../components/customPhone';
+import CustomPhone from '../../components/customPhoneRegister';
 import CustomOTPField from '../../components/customOtpField';
 import { ScaleDimention } from '../../GlobalStyles';
 import { useTranslation } from 'react-i18next';
@@ -183,24 +183,31 @@ const SignUp = () => {
                 alignItems: 'center',
               }}>
               <CustomInput
+                 label={t('screens.SignUp.First Name')}
+                 placeholder={t('screens.SignUp.Enter')+' '+ t('screens.SignUp.First Name')}
+
                 style={styles.input}
-                placeholder={t('screens.SignUp.First Name')}
+                // placeholder={t('screens.SignUp.First Name')}
                 control={control}
                 name="firstName"
                 rules={{ required: t('screens.SignUp.First Name is required') }}
                 errors={errors}
               />
               <CustomInput
+               label={t('screens.SignUp.Last Name')}
+               placeholder={t('screens.SignUp.Enter')+' '+ t('screens.SignUp.Last Name')}
                 style={styles.input}
-                placeholder={t('screens.SignUp.Last Name')}
+                // placeholder={t('screens.SignUp.Last Name')}
                 control={control}
                 name="LastName"
                 rules={{ required: t('screens.SignUp.Last Name is required') }}
                 errors={errors}
               />
               <CustomInput
+                 label={t('screens.SignUp.Email_Id')}
+                 placeholder={t('screens.SignUp.Enter')+' '+ t('screens.SignUp.Email Id')}
                 style={styles.input}
-                placeholder={t('screens.SignUp.Email Id')}
+                // placeholder={t('screens.SignUp.Email Id')}
                 control={control}
                 textContentType="emailAddress"
                 name="Email"
@@ -215,8 +222,10 @@ const SignUp = () => {
               />
               <View style={{width: '100%', alignItems: 'flex-end'}}>
               <CustomInput
+              label={t('screens.SignUp.Password')}
+              placeholder={t('screens.SignUp.Enter')+' '+ t('screens.SignUp.Password')}
                 style={styles.input}
-                placeholder={t('screens.SignUp.Password')}
+                // placeholder={t('screens.SignUp.Password')}
                 control={control}
                 name="Password"
                 rules={{ required: t('screens.SignUp.Password is required') }}
@@ -247,8 +256,10 @@ const SignUp = () => {
               </View>
 
               <CustomInput
+               label={t('screens.SignUp.Confirm password')}
+               placeholder={t('screens.SignUp.Enter')+' '+ t('screens.SignUp.Confirm password')}
                 style={styles.input}
-                placeholder={t('screens.SignUp.Confirm password')}
+                // placeholder={t('screens.SignUp.Confirm password')}
                 control={control}
                 name="confirmPassword"
                 // rules={{ required: t('screens.SignUp.Confirm password is required') }}
@@ -270,8 +281,10 @@ const SignUp = () => {
               />
               <TouchableOpacity onPress={() => setOpen(true)}>
                 <CustomInput
+                 label={t('screens.SignUp.Date of birth')}
+                 placeholder={t('screens.SignUp.Enter')+' '+t('screens.SignUp.Date of birth')}
                   style={styles.input}
-                  placeholder={t('screens.SignUp.Date of birth')}
+                  // placeholder={t('screens.SignUp.Date of birth')}
                   control={control}
                   name="DOB"
                   rules={{ required: t('screens.SignUp.DOB is required') }}
@@ -280,9 +293,12 @@ const SignUp = () => {
                 />
               </TouchableOpacity>
               <CustomInput
+               label={t('screens.SignUp.Mailing Address')}
+               placeholder={t('screens.SignUp.Enter')+' '+t('screens.SignUp.Mailing Address')}
                 style={styles.input}
-                placeholder={t('screens.SignUp.Mailing Address')}
+                // placeholder={t('screens.SignUp.Mailing Address')}
                 control={control}
+                
                 name="MailAddress"
                 textContentType="emailAddress"
                 rules={{
@@ -571,7 +587,7 @@ const styles = StyleSheet.create({
   },
 
   imageContainer: {
-    flex: 2,
+    flex: 2.2,
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -583,9 +599,9 @@ const styles = StyleSheet.create({
   },
 
   input: {
-    height: 55,
+    height: 45,
     width: 282,
-    padding: 10,
+    // padding: 10,
     marginBottom: 25,
     color:Color.colorDimgray_200
   },
@@ -597,13 +613,13 @@ const styles = StyleSheet.create({
 
   buttonContainer: {
     width: width,
-    flex: 3,
+    flex: 2.8,
     backgroundColor: Color.colorWhitesmoke_100,
-    borderTopLeftRadius: 25,
-    borderTopRightRadius: 25,
+    // borderTopLeftRadius: 25,
+    // borderTopRightRadius: 25,
     justifyContent: 'center',
     alignItems: 'center',
-    paddingTop: 50,
+    paddingTop: 30,
   },
   buttonSubContainer: {
     // width: width,
