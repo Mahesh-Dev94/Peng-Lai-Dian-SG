@@ -13,3 +13,4 @@ string app_name
 style AppTheme
 style SplashStatusBarTheme
 style SplashTheme
+xml network_security_config

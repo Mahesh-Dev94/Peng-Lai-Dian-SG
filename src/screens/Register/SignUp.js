@@ -97,7 +97,7 @@ const SignUp = () => {
       Option: optionArr,
     };
     setEmail(data.Email);
-    // console.log(data,'payload---',payload)
+    console.log(data,'payload---',`${config?.UrlBasePath}/${REGISTER}`)
     const registerUser = await post(`${config?.UrlBasePath}/${REGISTER}`, payload)
     console.log('registerUser----', registerUser)
     if (registerUser.success) {
@@ -556,7 +556,7 @@ const SignUp = () => {
           theme={customTheme}
           onSelect={(country) => {
             console.log(country);
-            setCountryCode(country.callingCode);
+            setCountryCode(country.callingCode[0]);
             setCountryCodePlaceholder(`(+${country.callingCode})`);
             setShow(false);
           }}

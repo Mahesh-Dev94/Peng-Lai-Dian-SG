@@ -17,7 +17,7 @@ import AttendeeCard from './components/AttendeeCard';
 import {useNavigation, useRoute} from '@react-navigation/native';
 import CustomButton from '../../components/commonButton';
 import {ScaleDimention} from '../../GlobalStyles';
-import {TRANSACTION} from '../../services/config';
+import {USER_TRANSACTION_NEW} from '../../services/config';
 import {useTranslation} from 'react-i18next';
 import Loader from '../../components/loader';
 import { useSelector } from 'react-redux';
@@ -40,7 +40,7 @@ const ActivitiesDetail = () => {
 
   const fetchData = async () => {
     setIsLoading(true);
-    const activitiyDetails = await get(`${config?.UrlBasePath}/${TRANSACTION}/${_id}`,
+    const activitiyDetails = await get(`${config?.UrlBasePath}/${USER_TRANSACTION_NEW}/${_id}`,
       session?.user?.token,
     );
     // console.log('activitiyDetails---', activitiyDetails);

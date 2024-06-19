@@ -11,174 +11,177 @@
 11    <uses-permission android:name="android.permission.INTERNET" />
 11-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:3:5-67
 11-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:3:22-64
-12    <uses-permission android:name="android.permission.CAMERA" />
-12-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:10-70
-12-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:27-67
-13    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
-13-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:6-77
-13-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:23-74
-14    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-14-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:6-81
-14-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:23-79
-15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:1-76
-15-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:18-73
-16
-17    <queries>
-17-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
-18        <intent>
-18-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
-19            <action android:name="android.media.action.IMAGE_CAPTURE" />
-19-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
-19-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
-20        </intent>
-21    </queries>
-22    <!--
-23    This manifest file is used only by Gradle to configure debug-only capabilities
-24    for React Native Apps.
-25    -->
-26    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-26-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:16:5-78
-26-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:16:22-75
-27    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
-27-->[com.facebook.flipper:flipper:0.201.0] /Users/mahesh/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
-27-->[com.facebook.flipper:flipper:0.201.0] /Users/mahesh/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
-28
-29    <permission
-29-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
-30        android:name="com.PengLaiDianSG.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
-30-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
-31        android:protectionLevel="signature" />
-31-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
-32
-33    <uses-permission android:name="com.PengLaiDianSG.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
-33-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
-33-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
-34
-35    <application
-35-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:9:5-28:19
-36        android:name="com.PengLaiDianSG.MainApplication"
-36-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:10:7-38
-37        android:allowBackup="false"
-37-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:14:7-34
-38        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
-38-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
-39        android:debuggable="true"
-40        android:extractNativeLibs="true"
-41        android:icon="@mipmap/ic_launcher"
-41-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:12:7-41
-42        android:label="@string/app_name"
-42-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:11:7-39
-43        android:roundIcon="@mipmap/ic_launcher_round"
-43-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:13:7-52
-44        android:theme="@style/AppTheme"
-44-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:15:7-38
-45        android:usesCleartextTraffic="true" >
-45-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:6:9-44
-46        <activity
-46-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:16:7-27:18
-47            android:name="com.PengLaiDianSG.MainActivity"
-47-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:17:9-37
-48            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
-48-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:19:9-118
-49            android:exported="true"
-49-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:22:9-32
-50            android:label="@string/app_name"
-50-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:18:9-41
-51            android:launchMode="singleTask"
-51-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:20:9-40
-52            android:windowSoftInputMode="adjustResize" >
-52-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:21:9-51
-53            <intent-filter>
-53-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:23:9-26:25
-54                <action android:name="android.intent.action.MAIN" />
-54-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:24:13-65
-54-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:24:21-62
-55
-56                <category android:name="android.intent.category.LAUNCHER" />
-56-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:25:13-73
-56-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:25:23-70
-57            </intent-filter>
-58        </activity>
-59
-60        <provider
-60-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-24:20
-61            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
-61-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-94
-62            android:authorities="com.PengLaiDianSG.provider"
-62-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-60
-63            android:exported="false"
-63-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
-64            android:grantUriPermissions="true" >
-64-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-47
-65            <meta-data
-65-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:78
-66                android:name="android.support.FILE_PROVIDER_PATHS"
-66-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
-67                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
-67-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-75
-68        </provider>
-69
-70        <activity
-70-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:72
-71            android:name="com.yalantis.ucrop.UCropActivity"
-71-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-60
-72            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-72-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-69
-73
-74        <provider
-74-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
-75            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-75-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
-76            android:authorities="com.PengLaiDianSG.fileprovider"
-76-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
-77            android:exported="false"
-77-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
-78            android:grantUriPermissions="true" >
-78-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
-79            <meta-data
-79-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:78
-80                android:name="android.support.FILE_PROVIDER_PATHS"
-80-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
-81                android:resource="@xml/file_provider_paths" />
-81-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-75
-82        </provider>
-83
-84        <activity
-84-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:19:9-21:40
-85            android:name="com.facebook.react.devsupport.DevSettingsActivity"
-85-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:20:13-77
-86            android:exported="false" />
-86-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:21:13-37
-87
-88        <provider
-88-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
-89            android:name="androidx.startup.InitializationProvider"
-89-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
-90            android:authorities="com.PengLaiDianSG.androidx-startup"
-90-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
-91            android:exported="false" >
-91-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
-92            <meta-data
-92-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
-93                android:name="androidx.emoji2.text.EmojiCompatInitializer"
-93-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
-94                android:value="androidx.startup" />
-94-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
-95            <meta-data
-95-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mahesh/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
-96                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
-96-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mahesh/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
-97                android:value="androidx.startup" />
-97-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mahesh/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
-98        </provider>
-99
-100        <meta-data
-100-->[com.facebook.soloader:soloader:0.10.5] /Users/mahesh/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
-101            android:name="com.facebook.soloader.enabled"
-101-->[com.facebook.soloader:soloader:0.10.5] /Users/mahesh/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
-102            android:value="false" />
-102-->[com.facebook.soloader:soloader:0.10.5] /Users/mahesh/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
-103    </application>
-104
-105</manifest>
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:5-79
+12-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:22-76
+13    <uses-permission android:name="android.permission.CAMERA" />
+13-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:10-70
+13-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:27-67
+14    <uses-permission android:name="android.permission.READ_MEDIA_IMAGES" />
+14-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:6-77
+14-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:23-74
+15    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+15-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:6-81
+15-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:23-79
+16    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+16-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:8:1-76
+16-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:8:18-73
+17
+18    <queries>
+18-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:7:5-11:15
+19        <intent>
+19-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-10:18
+20            <action android:name="android.media.action.IMAGE_CAPTURE" />
+20-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-73
+20-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:21-70
+21        </intent>
+22    </queries>
+23    <!--
+24    This manifest file is used only by Gradle to configure debug-only capabilities
+25    for React Native Apps.
+26    -->
+27    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
+27-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:16:5-78
+27-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:16:22-75
+28    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+28-->[com.facebook.flipper:flipper:0.201.0] /Users/mahesh/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:5-76
+28-->[com.facebook.flipper:flipper:0.201.0] /Users/mahesh/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:14:22-73
+29
+30    <permission
+30-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:22:5-24:47
+31        android:name="com.PengLaiDianSG.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION"
+31-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:23:9-81
+32        android:protectionLevel="signature" />
+32-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:24:9-44
+33
+34    <uses-permission android:name="com.PengLaiDianSG.DYNAMIC_RECEIVER_NOT_EXPORTED_PERMISSION" />
+34-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:5-97
+34-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:26:22-94
+35
+36    <application
+36-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:10:5-31:19
+37        android:name="com.PengLaiDianSG.MainApplication"
+37-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:11:7-38
+38        android:allowBackup="false"
+38-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:15:7-34
+39        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+39-->[androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
+40        android:debuggable="true"
+41        android:extractNativeLibs="true"
+42        android:icon="@mipmap/ic_launcher"
+42-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:13:7-41
+43        android:label="@string/app_name"
+43-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:12:7-39
+44        android:roundIcon="@mipmap/ic_launcher_round"
+44-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:14:7-52
+45        android:theme="@style/AppTheme"
+45-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:16:7-38
+46        android:usesCleartextTraffic="true" >
+46-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:17:7-42
+47        <activity
+47-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:19:7-30:18
+48            android:name="com.PengLaiDianSG.MainActivity"
+48-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:20:9-37
+49            android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize|smallestScreenSize|uiMode"
+49-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:22:9-118
+50            android:exported="true"
+50-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:25:9-32
+51            android:label="@string/app_name"
+51-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:21:9-41
+52            android:launchMode="singleTask"
+52-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:23:9-40
+53            android:windowSoftInputMode="adjustResize" >
+53-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:24:9-51
+54            <intent-filter>
+54-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:26:9-29:25
+55                <action android:name="android.intent.action.MAIN" />
+55-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:27:13-65
+55-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:27:21-62
+56
+57                <category android:name="android.intent.category.LAUNCHER" />
+57-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:28:13-73
+57-->/Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:28:23-70
+58            </intent-filter>
+59        </activity>
+60
+61        <provider
+61-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:9-24:20
+62            android:name="com.reactnative.ivpusic.imagepicker.IvpusicImagePickerFileProvider"
+62-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-94
+63            android:authorities="com.PengLaiDianSG.provider"
+63-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:13-60
+64            android:exported="false"
+64-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:13-37
+65            android:grantUriPermissions="true" >
+65-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:20:13-47
+66            <meta-data
+66-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:78
+67                android:name="android.support.FILE_PROVIDER_PATHS"
+67-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
+68                android:resource="@xml/ivpusic_imagepicker_provider_paths" />
+68-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-75
+69        </provider>
+70
+71        <activity
+71-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:26:9-28:72
+72            android:name="com.yalantis.ucrop.UCropActivity"
+72-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:27:13-60
+73            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
+73-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:28:13-69
+74
+75        <provider
+75-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:8:9-16:20
+76            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
+76-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:9:13-83
+77            android:authorities="com.PengLaiDianSG.fileprovider"
+77-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:13-64
+78            android:exported="false"
+78-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-37
+79            android:grantUriPermissions="true" >
+79-->[:react-native-webview] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-47
+80            <meta-data
+80-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:21:13-23:78
+81                android:name="android.support.FILE_PROVIDER_PATHS"
+81-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:17-67
+82                android:resource="@xml/file_provider_paths" />
+82-->[:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:17-75
+83        </provider>
+84
+85        <activity
+85-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:19:9-21:40
+86            android:name="com.facebook.react.devsupport.DevSettingsActivity"
+86-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:20:13-77
+87            android:exported="false" />
+87-->[com.facebook.react:react-android:0.73.5] /Users/mahesh/.gradle/caches/transforms-3/3ce902105a4ff251177e5b9f5c724b87/transformed/jetified-react-android-0.73.5-debug/AndroidManifest.xml:21:13-37
+88
+89        <provider
+89-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:24:9-32:20
+90            android:name="androidx.startup.InitializationProvider"
+90-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:25:13-67
+91            android:authorities="com.PengLaiDianSG.androidx-startup"
+91-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:26:13-68
+92            android:exported="false" >
+92-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:27:13-37
+93            <meta-data
+93-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:29:13-31:52
+94                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+94-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:30:17-75
+95                android:value="androidx.startup" />
+95-->[androidx.emoji2:emoji2:1.2.0] /Users/mahesh/.gradle/caches/transforms-3/faa3592d2fc203d6c74b9a5f601058a1/transformed/jetified-emoji2-1.2.0/AndroidManifest.xml:31:17-49
+96            <meta-data
+96-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mahesh/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:31:13-33:52
+97                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+97-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mahesh/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:32:17-78
+98                android:value="androidx.startup" />
+98-->[androidx.lifecycle:lifecycle-process:2.4.1] /Users/mahesh/.gradle/caches/transforms-3/71b91ea8216105cda74b0317da307340/transformed/jetified-lifecycle-process-2.4.1/AndroidManifest.xml:33:17-49
+99        </provider>
+100
+101        <meta-data
+101-->[com.facebook.soloader:soloader:0.10.5] /Users/mahesh/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:12:9-14:37
+102            android:name="com.facebook.soloader.enabled"
+102-->[com.facebook.soloader:soloader:0.10.5] /Users/mahesh/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:13:13-57
+103            android:value="false" />
+103-->[com.facebook.soloader:soloader:0.10.5] /Users/mahesh/.gradle/caches/transforms-3/03d018e18e7118763cc731de8f689ba0/transformed/jetified-soloader-0.10.5/AndroidManifest.xml:14:13-34
+104    </application>
+105
+106</manifest>

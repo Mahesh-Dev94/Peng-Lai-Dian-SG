@@ -1,7 +1,7 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
-MERGED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:1:1-29:12
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:1:1-32:12
+MERGED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:1:1-32:12
 INJECTED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:2:1-9:12
 INJECTED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:2:1-9:12
@@ -110,28 +110,32 @@ MERGED from [com.facebook.flipper:flipper:0.201.0] /Users/mahesh/.gradle/caches/
 MERGED from [com.facebook.flipper:flipper:0.201.0] /Users/mahesh/.gradle/caches/transforms-3/9b2c28bd5719adb7e465469e2ca76c12/transformed/jetified-flipper-0.201.0/AndroidManifest.xml:13:5-67
 	android:name
 		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:3:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:5-79
+	android:name
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:22-76
 uses-permission#android.permission.CAMERA
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:10-70
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:10-70
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:4:27-67
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:27-67
 uses-permission#android.permission.READ_MEDIA_IMAGES
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:6-77
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:6-77
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:5:23-74
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:23-74
 uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:6-81
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:6-81
 MERGED from [:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-81
 MERGED from [:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:5-81
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:6:23-79
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:23-79
 uses-permission#android.permission.READ_EXTERNAL_STORAGE
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:1-76
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:8:1-76
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:7:18-73
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:8:18-73
 application
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:9:5-28:19
-MERGED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:9:5-28:19
-MERGED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:9:5-28:19
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:10:5-31:19
+MERGED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:10:5-31:19
+MERGED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:10:5-31:19
 INJECTED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:5:5-8:50
 MERGED from [:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-29:19
 MERGED from [:react-native-image-crop-picker] /Users/mahesh/Documents/Flutter/TempleApp/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:5-29:19
@@ -164,53 +168,53 @@ MERGED from [net.time4j:time4j-android:4.8-2021a] /Users/mahesh/.gradle/caches/t
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.9.0] /Users/mahesh/.gradle/caches/transforms-3/13659b94c66de92d98d7f8af61234b95/transformed/core-1.9.0/AndroidManifest.xml:28:18-86
 	android:label
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:11:7-39
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:11:7-39
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:12:7-39
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:12:7-39
 	tools:ignore
 		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:8:9-48
 	android:roundIcon
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:13:7-52
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:13:7-52
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:14:7-52
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:14:7-52
 	tools:targetApi
 		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:7:9-29
 	android:icon
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:12:7-41
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:12:7-41
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:13:7-41
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:13:7-41
 	android:allowBackup
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:14:7-34
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:14:7-34
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:15:7-34
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:15:7-34
 	android:theme
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:15:7-38
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:15:7-38
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:16:7-38
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:16:7-38
 	android:usesCleartextTraffic
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml:6:9-44
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:17:7-42
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:10:7-38
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:10:7-38
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:11:7-38
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:11:7-38
 activity#com.PengLaiDianSG.MainActivity
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:16:7-27:18
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:19:7-30:18
 	android:label
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:18:9-41
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:21:9-41
 	android:launchMode
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:20:9-40
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:23:9-40
 	android:windowSoftInputMode
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:21:9-51
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:24:9-51
 	android:exported
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:22:9-32
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:25:9-32
 	android:configChanges
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:19:9-118
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:22:9-118
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:17:9-37
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:20:9-37
 intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:23:9-26:25
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:26:9-29:25
 action#android.intent.action.MAIN
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:24:13-65
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:27:13-65
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:24:21-62
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:27:21-62
 category#android.intent.category.LAUNCHER
-ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:25:13-73
+ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:28:13-73
 	android:name
-		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:25:23-70
+		ADDED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/main/AndroidManifest.xml:28:23-70
 uses-sdk
 INJECTED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/mahesh/Documents/Flutter/TempleApp/android/app/src/debug/AndroidManifest.xml

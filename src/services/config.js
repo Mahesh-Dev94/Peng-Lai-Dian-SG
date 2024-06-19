@@ -42,6 +42,7 @@ export const CURRENT_USER="current-user";
 export const UPDATE_USER="update-user";
 export const TRANSACTION="transaction";
 export const USER_TRANSACTION="transaction-user";
+export const USER_TRANSACTION_NEW="user-transaction"
 
 export const SEARCH="search";
 export const COUNTRY='country';

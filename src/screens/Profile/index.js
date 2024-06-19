@@ -533,7 +533,7 @@ const [countryList,setcountryList]=useState([])
           theme={customTheme}
           onSelect={(country) => {
             console.log(country);
-            setCountryCode(country.callingCode);
+            setCountryCode(country.callingCode[0]);
             setCountryCodePlaceholder(`(+${country.callingCode})`);
             setShow(false);
           }}
