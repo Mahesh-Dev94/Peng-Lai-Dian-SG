@@ -65,17 +65,17 @@ This is one way to run your app — you can also run it directly from within And
 
 ## Application Images
 
-![WebP Image](assets/1.webp)
-![WebP Image](assets/2.webp)
-![WebP Image](assets/3.webp)
-![WebP Image](assets/4.webp)
-![WebP Image](assets/5.webp)
-![WebP Image](assets/6.webp)
-![WebP Image](assets/7.webp)
-![WebP Image](assets/8.webp)
-![WebP Image](assets/9.webp)
-![WebP Image](assets/10.webp)
-![WebP Image](assets/11.webp)
+![WebP Image](src/assets/images/1.webp)
+![WebP Image](src/assets/images/2.webp)
+![WebP Image](src/assets/images/3.webp)
+![WebP Image](src/assets/images/4.webp)
+![WebP Image](src/assets/images/5.webp)
+![WebP Image](src/assets/images/6.webp)
+![WebP Image](src/assets/images/7.webp)
+![WebP Image](src/assets/images/8.webp)
+![WebP Image](src/assets/images/9.webp)
+![WebP Image](src/assets/images/10.webp)
+![WebP Image](src/assets/images/11.webp)
 
 
 
