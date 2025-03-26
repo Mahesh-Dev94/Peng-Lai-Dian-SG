@@ -65,17 +65,18 @@ This is one way to run your app — you can also run it directly from within And
 
 ## Application Images
 
-![WebP Image](src/assets/images/1.webp)
-![WebP Image](src/assets/images/2.webp)
-![WebP Image](src/assets/images/3.webp)
-![WebP Image](src/assets/images/4.webp)
-![WebP Image](src/assets/images/5.webp)
-![WebP Image](src/assets/images/6.webp)
-![WebP Image](src/assets/images/7.webp)
-![WebP Image](src/assets/images/8.webp)
-![WebP Image](src/assets/images/9.webp)
-![WebP Image](src/assets/images/10.webp)
-![WebP Image](src/assets/images/11.webp)
+<p align="center">
+  <img src="src/assets/images/1.webp" alt="Image 1" width="150"/>
+  <img src="src/assets/images/2.webp" alt="Image 2" width="150"/>
+  <img src="src/assets/images/3.webp" alt="Image 3" width="150"/>
+  <img src="src/assets/images/4.webp" alt="Image 4" width="150"/>
+  <img src="src/assets/images/5.webp" alt="Image 5" width="150"/>
+  <img src="src/assets/images/6.webp" alt="Image 6" width="150"/>
+  <img src="src/assets/images/7.webp" alt="Image 7" width="150"/>
+  <img src="src/assets/images/8.webp" alt="Image 8" width="150"/>
+  <img src="src/assets/images/9.webp" alt="Image 9" width="150"/>
+  <img src="src/assets/images/10.webp" alt="Image 10" width="150"/>
+</p>
 
 
 
